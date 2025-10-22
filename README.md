@@ -45,4 +45,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0035-search-insert-position](https://github.com/Tabbie254/Tabbie-Leetcode/tree/master/0035-search-insert-position) |
+## Database
+|  |
+| ------- |
+| [0176-second-highest-salary](https://github.com/Tabbie254/Tabbie-Leetcode/tree/master/0176-second-highest-salary) |
 <!---LeetCode Topics End-->
