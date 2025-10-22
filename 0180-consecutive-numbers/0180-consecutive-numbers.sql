@@ -1,12 +1,8 @@
 # Write your MySQL query statement below
-SELECT distinct 
-    i1.num as ConsecutiveNums 
-FROM 
-    logs i1,
-    logs i2,
-    logs i3
+SELECT DISTINCT log1.num AS ConsecutiveNums 
+FROM Logs AS log1, Logs AS log2, Logs AS log3
 WHERE 
-    i1.id=i2.id+1 AND 
-    i2.id=i3.id+1 AND 
-    i1.num=i2.num AND 
-    i2.num=i3.num
+    log1.id +1 = log2.id AND 
+    log2.id +1 = log3.id AND
+    log1.num = log2.num AND
+    log2.num = log3.num;
